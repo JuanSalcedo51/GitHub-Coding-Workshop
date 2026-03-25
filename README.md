@@ -2,19 +2,45 @@
 
 Welcome to the **Women in Engineering and Computer Science (WIECS)** GitHub/Coding Workshop! 
 
+---
 
+## 🛠 Step 0: Claim Your Project (Forking)
+
+Before you start, you need your own copy of the game to work on:
+1.  Look at the top-right of this GitHub page and click the **Fork** button.
+2.  This creates a copy of the project under your own GitHub account. **Make sure you are working on your fork!**
 
 ---
 
-## 🛠 Setting Up Your Environment
-To begin your development journey, follow these steps:
+## 🚀 Getting Started: Choose Your Path
 
-1. **Fork this Repository:** Click the 'Fork' button at the top right of this page to create your own copy.
-2. **Clone to Your Machine:** Use `git clone [YOUR_REPO_URL]` or open it directly in your preferred web IDE (like GitHub Codespaces or VS Code).
-3. **Open the Game:** Launch `index.html` in your browser to see the current state of the engine.
+Now that you have your own copy, you need to set up your workspace. You can work entirely in your **browser** (easiest) or on your **local computer**.
+
+### Option A: GitHub Codespaces (Browser-Based)
+*Best if you want to start instantly without installing anything.*
+1. Click the green **Code** button on **your forked repo** and select the **Codespaces** tab.
+2. Click **Create codespace on main**.
+3. **Install Live Server:** Click the **Extensions** icon on the left (4 squares), search for `Live Server` by **Ritwick Dey**, and hit **Install**.
+4. **Go Live:** Click the **Go Live** button at the very bottom-right of your screen. A new tab will open with your game!
+
+### Option B: Local VS Code (Desktop)
+*Best if you already have VS Code installed and want to work locally.*
+1. **Clone your fork:** Open your terminal and type `git clone [YOUR_FORK_URL]`.
+2. **Open in VS Code:** File > Open Folder > Select your project.
+3. **Install Live Server:** Go to the **Extensions** tab and install `Live Server` by **Ritwick Dey**.
+4. **Go Live:** Right-click `index.html` and select **Open with Live Server**.
 
 ---
 
+## 🛠 The Engineering Workflow (Git)
+
+In professional engineering, we don't just "Save" files—we **Commit** them. This creates a timeline of your work so you can experiment without fear! After every Sprint today, follow this 3-step rhythm in your terminal:
+
+1. **Stage it:** `git add .`
+2. **Snapshot it:** `git commit -m "Sprint X Complete: [Describe your work]"`
+3. **Share it:** `git push`
+
+---
 ## 👩‍💻 The Development Sprints
 This workshop is divided into **6 Sprints**. After you complete the code for each challenge, you must **Commit** and **Push** your changes to GitHub to "save" your progress in the cloud.
 
