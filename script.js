@@ -130,6 +130,8 @@ function update() {
    */
   if (player.y > canvas.height) {
     // TODO: Set player.dead and show overlay
+    player.dead;
+    alert("GAME OVER");
   }
 
   platforms.forEach((p, i) => {
